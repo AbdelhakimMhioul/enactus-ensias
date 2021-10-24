@@ -66,7 +66,7 @@ export default function GoalsSection() {
           </Grid>
         </Box>
       </Container>
-      <ModalVideo channel="youtube" isOpen={videoOpen} videoId="ZNA9rmDsYVE" onClose={() => setVideoOpen(false)} />
+      <ModalVideo channel="youtube" isOpen={videoOpen} videoId="TRcrASXCNr4" onClose={() => setVideoOpen(false)} />
     </section>
   )
 }

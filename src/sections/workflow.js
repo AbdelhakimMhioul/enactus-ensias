@@ -1,34 +1,34 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Container, Grid, Box, Heading, Text } from 'theme-ui';
-import SectionHeader from 'components/section-header';
+import { jsx } from 'theme-ui'
+import { Container, Grid, Box, Heading, Text } from 'theme-ui'
+import SectionHeader from 'components/section-header'
 
-import PatternBG from 'assets/patternBG.png';
-import ArrowOdd from 'assets/arrowOdd.svg';
-import ArrowEven from 'assets/arrowEven.svg';
+import PatternBG from 'assets/patternBG.png'
+import ArrowOdd from 'assets/arrowOdd.svg'
+import ArrowEven from 'assets/arrowEven.svg'
 
 const data = [
   {
     id: 1,
-    title: 'Don du Sang',
+    title: 'Don du Sang (In9ad)',
     text: "Il s'agit d'une application mobile qui joue le rôle d'un intermédiaire entre le donneur et le receveur. Et ainsi on pourra trouver plus rapidement un donneur de sang pour toute personne qui en a besoin.",
   },
   {
     id: 2,
-    title: 'Resale Expired App',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'ImkliBox',
+    text: "Fournir un déjeuner healthy/homemade, avec un petit prix à travers une application mobile où l'utilisateur entre son budget et désigne les jours de la semaine où il a besoin de déjeuner.",
   },
   {
     id: 3,
     title: 'Day-2-Day Meal',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    text: 'Un site web qui propose chaque jour des recettes marocaines faciles avec des ingrédients qui sont à la portée de tout le monde et pouvant être adaptées à des régimes alimentaires différents.',
   },
   {
     id: 4,
-    title: 'Mentoring Platform',
-    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-];
+    title: 'StillEdible',
+    text: 'Il s’agit de lutter contre le gaspillage alimentaire en récupérant les produits invendus non encore périmé mais dont la date d’expiration s’approche et les vendre aux clients avec des prix ultra réduits à travers notre application mobile',
+  }
+]
 
 export default function WorkFlow() {
   return (
@@ -53,7 +53,7 @@ export default function WorkFlow() {
         </Grid>
       </Container>
     </section>
-  );
+  )
 }
 
 const styles = {

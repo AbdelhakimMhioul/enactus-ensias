@@ -25,24 +25,12 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://web.facebook.com/profile.php?id=100007317617840',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'instagram',
-        path: 'https://www.instagram.com/maryamoutaleb15/',
-        icon: <FaInstagram />,
-      },
-      {
-        id: 3,
         name: 'github',
         path: 'https://github.com/maryout',
         icon: <FaGithub />,
       },
       {
-        id: 4,
+        id: 2,
         name: 'twitter',
         path: 'https://twitter.com/MaryamOutaleb',
         icon: <FaTwitter />,
@@ -52,27 +40,21 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Wissal Kassoui',
-    title: 'Wissal Kassoui',
+    altText: 'Wissal Kassaoui',
+    title: 'Wissal Kassaoui',
     designation: 'Vice-Presidente du Club',
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://web.facebook.com/wiss.wissal.5477',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-      {
-        id: 3,
         name: 'github',
         path: 'https://github.com/wissalkas',
         icon: <FaGithub />,
+      },
+      {
+        id: 2,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/wissal-kassaoui-3321161b5/',
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -85,18 +67,12 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://web.facebook.com/mhioul.abdou/',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
         name: 'twitter',
         path: 'https://twitter.com/HkMhl',
         icon: <FaTwitter />,
       },
       {
-        id: 3,
+        id: 2,
         name: 'github',
         path: 'https://github.com/AbdelhakimMhioul',
         icon: <FaGithub />,
@@ -118,24 +94,12 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://web.facebook.com/gaa.linaa.12',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
         name: 'github',
         path: 'https://github.com/IkrameNG',
         icon: <FaGithub />,
       },
       {
-        id: 3,
-        name: 'instagram',
-        path: 'https://www.instagram.com/ikramenouigua/',
-        icon: <FaInstagram />,
-      },
-      {
-        id: 3,
+        id: 2,
         name: 'linkedin',
         path: 'https://www.linkedin.com/in/ikrame-nouigua-b32613193/',
         icon: <FaLinkedin />,
@@ -151,18 +115,12 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://www.facebook.com/Mr.Ayoub.Mansouri',
-        icon: <FaFacebookF />,
+        name: 'github',
+        path: 'https://github.com/ayoub-mansouri4',
+        icon: <FaGithub />,
       },
       {
-        id: 3,
-        name: 'instagram',
-        path: 'https://www.instagram.com/ayoub.m.n.s/',
-        icon: <FaInstagram />,
-      },
-      {
-        id: 4,
+        id: 2,
         name: 'linkedin',
         path: 'https://www.linkedin.com/in/ayoub-mansouri-94ba891b7',
         icon: <FaLinkedin />,
@@ -178,21 +136,15 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://web.facebook.com/profile.php?id=100026895030781',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
         name: 'github',
         path: 'https://github.com/khadijabaddouj',
         icon: <FaGithub />,
       },
       {
-        id: 3,
-        name: 'instagram',
-        path: 'https://www.instagram.com/khadija._baddouj/',
-        icon: <FaInstagram />,
+        id: 2,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/khadija-baddouj-2b26b21b4/',
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -205,7 +157,7 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
+        name: 'github',
         path: 'https://web.facebook.com/aitja.222',
         icon: <FaFacebookF />,
       },
@@ -226,18 +178,12 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://web.facebook.com/soufyane.djaider',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
         name: 'github',
         path: 'https://github.com/SoufyaneDJR',
         icon: <FaGithub />,
       }, 
       {
-        id: 3,
+        id: 2,
         name: 'linkedin',
         path: 'https://www.linkedin.com/in/soufyane-djaider/',
         icon: <FaLinkedin />,
@@ -253,21 +199,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: 'https://www.facebook.com/alaoui.ine',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
         name: 'twitter',
         path: 'https://twitter.com/Amineal54197840',
         icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: 'https://www.instagram.com/Amin__alaoui/',
-        icon: <FaInstagram />,
       },
     ],
   },

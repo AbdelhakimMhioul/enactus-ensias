@@ -1,21 +1,16 @@
-import React, { useContext } from 'react';
-import { Box } from 'theme-ui';
-import { Scrollbars } from 'react-custom-scrollbars';
-import Drawer from 'components/drawer';
-import { DrawerContext } from '../../contexts/drawer/drawer.context';
-import { IoMdClose, IoMdMenu } from 'react-icons/io';
-import { Link } from 'react-scroll';
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaGithubAlt,
-  FaDribbble,
-} from 'react-icons/fa';
-import menuItems from './header.data';
+import React, { useContext } from 'react'
+import { Box } from 'theme-ui'
+import { Scrollbars } from 'react-custom-scrollbars'
+import Drawer from 'components/drawer'
+import { DrawerContext } from '../../contexts/drawer/drawer.context'
+import { IoMdClose, IoMdMenu } from 'react-icons/io'
+import { Link } from 'react-scroll'
+import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa'
+import menuItems from './header.data'
 
 const social = [
   {
-    path: '/',
+    path: 'https://web.facebook.com/enactus.ensias.3',
     icon: <FaFacebookF />,
   },
   {
@@ -23,23 +18,18 @@ const social = [
     icon: <FaTwitter />,
   },
   {
-    path: '/',
-    icon: <FaGithubAlt />,
+    path: 'https://www.youtube.com/channel/UCllzk7KJ-juHgLP4VMUS8IA',
+    icon: <FaYoutube />,
   },
-  {
-    path: '/',
-    icon: <FaDribbble />,
-  },
-];
+]
 
-const MobileDrawer = () => {
-  const { state, dispatch } = useContext(DrawerContext);
-
+export default function MobileDrawer() {
+  const { state, dispatch } = useContext(DrawerContext)
   // Toggle drawer
   const toggleHandler = React.useCallback(() => {
     dispatch({
       type: 'TOGGLE',
-    });
+    })
   }, [dispatch]);
 
   return (
@@ -196,5 +186,3 @@ const styles = {
     py: '0',
   },
 };
-
-export default MobileDrawer;

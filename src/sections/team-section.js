@@ -21,7 +21,7 @@ const data = [
     imgSrc: Member1,
     altText: 'Maryam Outaleb',
     title: 'Maryam Outaleb',
-    designation: 'Présidente du Club',
+    designation: 'Club Team-Leader',
     socialProfile: [
       {
         id: 1,
@@ -42,7 +42,7 @@ const data = [
     imgSrc: Member2,
     altText: 'Wissal Kassaoui',
     title: 'Wissal Kassaoui',
-    designation: 'Vice-Presidente du Club',
+    designation: 'Club Vice-Team-Leader',
     socialProfile: [
       {
         id: 1,
@@ -63,7 +63,7 @@ const data = [
     imgSrc: Member3,
     altText: 'Mhioul Abdelhakim',
     title: 'Mhioul Abdelhakim',
-    designation: 'Responsable Cellule Technique',
+    designation: 'Technique Manager',
     socialProfile: [
       {
         id: 1,
@@ -78,7 +78,7 @@ const data = [
         icon: <FaGithub />,
       },
       {
-        id: 4,
+        id: 3,
         name: 'linkedin',
         path: 'https://www.linkedin.com/in/abdelhakim-mhioul/',
         icon: <FaLinkedin />,
@@ -90,7 +90,7 @@ const data = [
     imgSrc: Member4,
     altText: 'Ikrame Nouigua',
     title: 'Ikrame Nouigua',
-    designation: 'Co-Responsable Cellule Event',
+    designation: 'Event Co-Manager',
     socialProfile: [
       {
         id: 1,
@@ -111,7 +111,7 @@ const data = [
     imgSrc: Member5,
     altText: 'Ayoub Mansouri',
     title: 'Ayoub Mansouri',
-    designation: 'Co-Responsable Cellule Event',
+    designation: 'Event Co-Manager',
     socialProfile: [
       {
         id: 1,
@@ -132,7 +132,7 @@ const data = [
     imgSrc: Member6,
     altText: 'Khadija Baddouj',
     title: 'Khadija Baddouj',
-    designation: 'Co-Responsable Cellule Media',
+    designation: 'Media Co-Manager',
     socialProfile: [
       {
         id: 1,
@@ -153,7 +153,7 @@ const data = [
     imgSrc: Member7,
     altText: 'Abdellilah Ait Ja',
     title: 'Abdellilah Ait Ja',
-    designation: 'Co-Responsable Cellule Media',
+    designation: 'Media Co-Manager',
     socialProfile: [
       {
         id: 1,
@@ -174,7 +174,7 @@ const data = [
     imgSrc: Member8,
     altText: 'Soufyane Djaider',
     title: 'Soufyane Djaider',
-    designation: 'Responsable Cellule Sponsoring',
+    designation: 'Sponsoring Manager',
     socialProfile: [
       {
         id: 1,
@@ -195,7 +195,7 @@ const data = [
     imgSrc: Member9,
     altText: 'Mohammed Amine Alaoui Ismaili',
     title: 'Mohammed Amine Alaoui Ismaili',
-    designation: 'Responsable Cellule Design',
+    designation: 'Design Manager',
     socialProfile: [
       {
         id: 1,

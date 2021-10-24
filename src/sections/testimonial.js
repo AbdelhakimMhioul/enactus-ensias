@@ -14,35 +14,35 @@ const data = [
     id: 1,
     description: 'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar1,
-    name: 'Rida abdelghani',
+    name: 'RIDA abdelghani',
     designation: 'Team-Leader ENACTUS 2020/2021',
     review: 4,
   },
   {
     id: 2,
-    description: 'C’était une très belle expérience. J’ai appris beaucoup de choses dans plusieurs aspects que ça soit en communication, entreprenariat et même en gestion de projets. Vraiment, c’est un club qui vous permet de toucher la majorité des aspects du parascolaire.',
+    description: "It was a great experience. I learned a lot of things in several aspects, whether in communication, entrepreneurship and even project management. Really, it's a club that allows you to touch the majority of the extracurricular aspects.",
     avatar: Avatar2,
-    name: 'Abdelalaoui Soukaina',
+    name: 'EL ABDELLAOUI Soukaina',
     designation: 'Team-Leader ENACTUS 2017/2018',
     review: 5,
   },
   {
     id: 3,
-    description: "Les compétitions d’Enactus sont un moyen et pas un objectif, elles vous aident à consolider vos acquis, à comprendre l’entrepreneuriat social, d'être un chef de projet et non pas seulement un exécuteur dans un projet",
+    description: "The Enactus competitions are a means not an objective, they help you to consolidate your achievements, to understand social entrepreneurship, to be a project manager and not just an executor in a project.",
     avatar: Avatar3,
-    name: 'Kassaoui Wissal',
+    name: 'KASSAOUI Wissal',
     designation: 'Vice-Team-Leader ENACTUS 2021/2022',
     review: 5,
   },
   {
     id: 4,
-    description: "Une expérience de quelque mois m'a donné suffisamment de raisons pour décider d’aller jusqu'au bout dans la réalisation de mes rêves et m'a totalement motivé. ENACTUS est une experience certainement pas comme les autres.",
+    description: "A few months of experience gave me enough reasons to decide to go all the way in the realization of my dreams and totally motivated me. ENACTUS is definitely an experience like no other.",
     avatar: Avatar4,
-    name: 'Outaleb Maryam',
+    name: 'OUTALEB Maryam',
     designation: 'Team-Leader ENACTUS 2021/2022',
     review: 4,
   },
-];
+]
 
 const responsive = {
   desktop: {
@@ -241,4 +241,4 @@ const styles = {
     fontSize: 1,
     lineHeight: 1.4,
   },
-};
+}

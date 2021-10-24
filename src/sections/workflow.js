@@ -11,22 +11,22 @@ const data = [
   {
     id: 1,
     title: 'Don du Sang (In9ad)',
-    text: "Il s'agit d'une application mobile qui joue le rôle d'un intermédiaire entre le donneur et le receveur. Et ainsi on pourra trouver plus rapidement un donneur de sang pour toute personne qui en a besoin.",
+    text: "It is a mobile application that acts as an intermediary between the donor and the recipient. And then we can find a blood donor more quickly for anyone who needs it.",
   },
   {
     id: 2,
     title: 'ImkliBox',
-    text: "Fournir un déjeuner healthy/homemade, avec un petit prix à travers une application mobile où l'utilisateur entre son budget et désigne les jours de la semaine où il a besoin de déjeuner.",
+    text: "Provide a healthy/homemade lunch, with a small price through a mobile app where the user enters his budget and designates the days of the week when he needs lunch.",
   },
   {
     id: 3,
     title: 'Day-2-Day Meal',
-    text: 'Un site web qui propose chaque jour des recettes marocaines faciles avec des ingrédients qui sont à la portée de tout le monde et pouvant être adaptées à des régimes alimentaires différents.',
+    text: 'A website that offers every day easy Moroccan recipes with ingredients that are within everyone’s reach and can be adapted to different diets.',
   },
   {
     id: 4,
     title: 'StillEdible',
-    text: 'Il s’agit de lutter contre le gaspillage alimentaire en récupérant les produits invendus non encore périmé mais dont la date d’expiration s’approche et les vendre aux clients avec des prix ultra réduits à travers notre application mobile',
+    text: 'The aim is to combat food waste by recovering unsold products that have not yet expired but whose expiry date is approaching and selling them to customers with ultra-low prices through our mobile app.',
   }
 ]
 

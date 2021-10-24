@@ -63,7 +63,7 @@ const data = [
     imgSrc: Member3,
     altText: 'Mhioul Abdelhakim',
     title: 'Mhioul Abdelhakim',
-    designation: 'Technique Manager',
+    designation: 'Technical Manager',
     socialProfile: [
       {
         id: 1,

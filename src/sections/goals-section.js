@@ -5,7 +5,7 @@ import { keyframes } from '@emotion/core'
 import TextFeature from 'components/text-feature'
 import ModalVideo from 'react-modal-video'
 import { IoIosPlay } from 'react-icons/io'
-import ServiceThumb from 'assets/service-thumb.png'
+import ServiceThumb from 'assets/service-thumb.jpeg'
 import Smart from 'assets/services/smart.svg'
 import Secure from 'assets/services/secure.svg'
 
@@ -25,7 +25,7 @@ const data = {
       imgSrc: Secure,
       altText: 'Enactus Mission',
       title: 'Enactus Mission',
-      text: 'Helps students unleash their entrepreneurial spirit and develop the talent and perspective essential to leadership in our ever-changing world.',
+      text: 'Help students unleash their entrepreneurial spirit and develop the talent and perspective essential to leadership in our world.',
     },
   ],
 }

@@ -11,6 +11,9 @@ import Member3 from 'assets/team/member-3.png';
 import Member4 from 'assets/team/member-4.png';
 import Member5 from 'assets/team/member-5.png';
 import Member6 from 'assets/team/member-6.png';
+import Member7 from 'assets/team/member-7.png';
+import Member8 from 'assets/team/member-8.png';
+import Member9 from 'assets/team/member-9.png';
 
 const data = [
   {
@@ -18,7 +21,7 @@ const data = [
     imgSrc: Member1,
     altText: 'Maryam Outaleb',
     title: 'Maryam Outaleb',
-    designation: 'Président du Club',
+    designation: 'Présidente du Club',
     socialProfile: [
       {
         id: 1,
@@ -29,8 +32,14 @@ const data = [
       {
         id: 2,
         name: 'instagram',
-        path: '#',
+        path: 'https://www.instagram.com/maryamoutaleb15/',
         icon: <FaInstagram />,
+      },
+      {
+        id: 3,
+        name: 'github',
+        path: 'https://github.com/maryout',
+        icon: <FaGithub />,
       },
     ],
   },
@@ -39,7 +48,7 @@ const data = [
     imgSrc: Member2,
     altText: 'Wissal Kassoui',
     title: 'Wissal Kassoui',
-    designation: 'Vice-President du Club',
+    designation: 'Vice-Presidente du Club',
     socialProfile: [
       {
         id: 1,
@@ -183,9 +192,9 @@ const data = [
   },
   {
     id: 7,
-    imgSrc: Member6,
-    altText: 'Abdelilah Ait Jean',
-    title: 'Abdelilah Ait Jean',
+    imgSrc: Member7,
+    altText: 'Abdellilah Ait Ja',
+    title: 'Abdellilah Ait Ja',
     designation: 'Co-Responsable Cellule Media',
     socialProfile: [
       {
@@ -204,9 +213,9 @@ const data = [
   },
   {
     id: 8,
-    imgSrc: Member6,
-    altText: 'Soufyane Django',
-    title: 'Soufyane Django',
+    imgSrc: Member8,
+    altText: 'Soufyane Djaider',
+    title: 'Soufyane Djaider',
     designation: 'Responsable Cellule Sponsoring',
     socialProfile: [
       {
@@ -231,9 +240,9 @@ const data = [
   },
   {
     id: 9,
-    imgSrc: Member6,
-    altText: 'Mohammed amine alaoui ismaili',
-    title: 'Mohammed amine alaoui ismaili',
+    imgSrc: Member9,
+    altText: 'Mohammed Amine Alaoui Ismaili',
+    title: 'Mohammed Amine Alaoui Ismaili',
     designation: 'Responsable Cellule Design',
     socialProfile: [
       {
@@ -260,7 +269,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section style={{ marginTop: 70 }}>
+    <section style={{ marginTop: 70 }} id="team">
       <Container>
         <SectionHeader
           slogan="our team"

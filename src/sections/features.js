@@ -14,28 +14,28 @@ const data = [
     imgSrc: Performance,
     altText: 'Workshops',
     title: 'Workshops',
-    text: "we try to organize several Workshops in several fields and every workshop must have a goal. Exemples: Bisness Model Canvas, Digital entrepreneurship, Strategic thinking, BMC workshop...",
+    text: "We try to organize several workshops in several fields and every workshop must have a goal. Exemples: Business Model Canvas, Digital Entrepreneurship, Strategic Thinking, BMC Workshop...",
   },
   {
     id: 2,
     imgSrc: Partnership,
     altText: 'External events ',
     title: 'External events ',
-    text: 'There are two important external events:  * meet of all  enactus rabat. * Participation in the national competition of enactus morocco.',
+    text: 'There are two important external events: * Meet of all ENACTUS Rabat. * Participation in the National Competition of ENACTUS Morocco.',
   },
   {
     id: 3,
     imgSrc: Subscription,
     altText: 'Internal Events',
     title: 'Internal Events',
-    text: 'We organize school field trips to study the market and find projects ideas wich will create a social impact.',
+    text: 'We organize school field trips to study the market and find projects ideas which will create a social impact.',
   },
   {
     id: 4,
     imgSrc: Support,
     altText: 'Implementation',
     title: 'Implementation',
-    text: 'Implement projects wich helps students develop the kind of talent and perspective that are essential to leadership in an challenging world',
+    text: 'Implement projects that help students develop the kind of talent and perspective that are essential to leadership in an challenging world',
   },
 ];
 

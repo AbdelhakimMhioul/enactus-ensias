@@ -5,14 +5,14 @@ export default [
   },
   {
     path: 'goals',
-    label: 'Our Goals',
+    label: 'Goals & Events',
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: 'team',
+    label: 'Team',
   },
   {
     path: 'testimonial',
-    label: 'Testimonial',
+    label: 'Testimonials',
   },
 ];

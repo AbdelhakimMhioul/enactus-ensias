@@ -12,30 +12,30 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
-    text: 'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+    altText: 'Workshops',
+    title: 'Workshops',
+    text: "we try to organize several Workshops in several fields and every workshop must have a goal. Exemples: Bisness Model Canvas, Digital entrepreneurship, Strategic thinking, BMC workshop...",
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
-    text: 'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+    altText: 'External events ',
+    title: 'External events ',
+    text: 'There are two important external events:  * meet of all  enactus rabat. * Participation in the national competition of enactus morocco.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
-    text: 'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+    altText: 'Internal Events',
+    title: 'Internal Events',
+    text: 'We organize school field trips to study the market and find projects ideas wich will create a social impact.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
-    text: 'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+    altText: 'Implementation',
+    title: 'Implementation',
+    text: 'Implement projects wich helps students develop the kind of talent and perspective that are essential to leadership in an challenging world',
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="Activities"
+          slogan="Activities & Events"
           title="Creativity & Bloody Passion"
         />
         <Grid sx={styles.grid}>

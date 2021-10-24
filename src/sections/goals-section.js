@@ -1,42 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 /** @jsx jsx */
-import { jsx, Container, Box, Grid, Text, Heading, Button, Image } from 'theme-ui';
-import { keyframes } from '@emotion/core';
-import TextFeature from 'components/text-feature';
-import ModalVideo from 'react-modal-video';
-import { IoIosPlay } from 'react-icons/io';
-import ServiceThumb from 'assets/service-thumb.png';
-import Smart from 'assets/services/smart.svg';
-import Secure from 'assets/services/secure.svg';
+import { jsx, Container, Box, Grid, Text, Heading, Button, Image } from 'theme-ui'
+import { keyframes } from '@emotion/core'
+import TextFeature from 'components/text-feature'
+import ModalVideo from 'react-modal-video'
+import { IoIosPlay } from 'react-icons/io'
+import ServiceThumb from 'assets/service-thumb.png'
+import Smart from 'assets/services/smart.svg'
+import Secure from 'assets/services/secure.svg'
 
 const data = {
   subTitle: 'our goals',
-  title: "It's About Time to Shine",
+  title: "We Rise by Lifting Others",
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
-      text: 'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+      altText: 'Enactus Vision',
+      title: 'Enactus Vision',
+      text: 'Engage the next generation of entrepreneurial leaders to use innovation and business principles to improve the world.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
-      text: 'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+      altText: 'Enactus Mission',
+      title: 'Enactus Mission',
+      text: 'Helps students unleash their entrepreneurial spirit and develop the talent and perspective essential to leadership in our ever-changing world.',
     },
   ],
-};
+}
 
 export default function GoalsSection() {
   // modal popup video handler
-  const [videoOpen, setVideoOpen] = useState(false);
+  const [videoOpen, setVideoOpen] = useState(false)
   const handleClick = (e) => {
-    e.preventDefault();
-    setVideoOpen(true);
-  };
+    e.preventDefault()
+    setVideoOpen(true)
+  }
+
   return (
     <section sx={{ variant: 'section.services' }} style={{ marginTop: 100 }} id="goals">
       <Container sx={styles.containerBox}>
@@ -67,7 +68,7 @@ export default function GoalsSection() {
       </Container>
       <ModalVideo channel="youtube" isOpen={videoOpen} videoId="ZNA9rmDsYVE" onClose={() => setVideoOpen(false)} />
     </section>
-  );
+  )
 }
 
 const playPluse = keyframes`

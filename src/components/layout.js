@@ -7,11 +7,8 @@ import Footer from './footer/footer';
 export default function Layout({ children }) {
   const [isSticky, setIsSticky] = useState(false);
   const handleStateChange = (status) => {
-    if (status.status === Sticky.STATUS_FIXED) {
-      setIsSticky(true);
-    } else if (status.status === Sticky.STATUS_ORIGINAL) {
-      setIsSticky(false);
-    }
+    if (status.status === Sticky.STATUS_FIXED) setIsSticky(true);
+    if (status.status === Sticky.STATUS_ORIGINAL) setIsSticky(false);
   };
   return (
     <React.Fragment>
@@ -20,9 +17,7 @@ export default function Layout({ children }) {
       </Sticky>
       <main
         id="content"
-        sx={{
-          variant: 'layout.main',
-        }}
+        sx={{ variant: 'layout.main' }}
       >
         {children}
       </main>

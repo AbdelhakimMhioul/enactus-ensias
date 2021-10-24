@@ -21,7 +21,7 @@ const Drawer = ({
       <RcDrawer
         open={open}
         onClose={toggleHandler}
-        className={`drawer ${className ? className : ''}`.trim()}
+        className={`drawer ${className || ''}`.trim()}
         width={width}
         placement={placement}
         handler={false}

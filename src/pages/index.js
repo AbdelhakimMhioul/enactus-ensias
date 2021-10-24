@@ -25,8 +25,8 @@ export default function IndexPage() {
           <WorkFlow />
           <TeamSection />
           <TestimonialCard />
-          <BlogSection />
-          <Subscribe />
+          {/* <BlogSection />
+          <Subscribe /> */}
         </Layout>
       </StickyProvider>
     </ThemeProvider>

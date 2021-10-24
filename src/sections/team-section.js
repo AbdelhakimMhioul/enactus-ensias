@@ -41,6 +41,12 @@ const data = [
         path: 'https://github.com/maryout',
         icon: <FaGithub />,
       },
+      {
+        id: 4,
+        name: 'twitter',
+        path: 'https://twitter.com/MaryamOutaleb',
+        icon: <FaTwitter />,
+      },
     ],
   },
   {

@@ -10,27 +10,23 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Don du Sang',
+    text: "Il s'agit d'une application mobile qui joue le rôle d'un intermédiaire entre le donneur et le receveur. Et ainsi on pourra trouver plus rapidement un donneur de sang pour toute personne qui en a besoin.",
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Resale Expired App',
+    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Day-2-Day Meal',
+    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Mentoring Platform',
+    text: 'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
 ];
 
@@ -39,8 +35,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="Projects"
+          title="You Get to See our Achievements"
           isWhite={true}
         />
 

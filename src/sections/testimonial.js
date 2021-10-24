@@ -20,27 +20,25 @@ const data = [
   },
   {
     id: 2,
-    description: 'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    description: 'C’était une très belle expérience. J’ai appris beaucoup de choses dans plusieurs aspects que ça soit en communication, entreprenariat et même en gestion de projets. Vraiment, c’est un club qui vous permet de toucher la majorité des aspects du parascolaire.',
     avatar: Avatar2,
     name: 'Soukaina Abdelalaoui',
-    designation: '@denny.hil',
+    designation: '@Linkedin',
     review: 5,
   },
   {
     id: 3,
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    description: "Les compétitions d’Enactus sont un moyen et pas un objectif, elles vous aident à consolider vos acquis, à comprendre l’entrepreneuriat social, d'être un chef de projet et non pas seulement un exécuteur dans un projet",
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Wissal Kassaoui',
+    designation: '@linkedin',
     review: 5,
   },
   {
     id: 4,
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    description: "Une expérience de quelque mois m'a donné suffisamment de raisons pour décider d’aller jusqu'au bout dans la réalisation de mes rêves et m'a totalement motivé. ENACTUS est une experience certainement pas comme les autres.",
     avatar: Avatar4,
-    name: 'Denny Hilguston',
+    name: 'Maryam Outaleb',
     designation: '@denny.hil',
     review: 4,
   },
@@ -73,7 +71,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container css={{ textAlign: 'center' }}>
-        <SectionHeader slogan="Testimonials" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Testimonials" title="What People Thinks of ENACTUS Ensias" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

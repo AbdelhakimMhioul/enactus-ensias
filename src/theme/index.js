@@ -129,7 +129,7 @@ export default {
     },
 
     subTitle: {
-      fontSize: [0, '13px', null, '14px'],
+      fontSize: [0, '13px', null, '20px'],
       color: 'primary',
       textAlign: 'center',
       letterSpacing: ['1.5px', null, '2px'],

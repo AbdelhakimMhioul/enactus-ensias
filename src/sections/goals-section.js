@@ -81,7 +81,7 @@ const playPluse = keyframes`
 	transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
-`;
+`
 
 const styles = {
   coreFeature: {
@@ -220,4 +220,4 @@ const styles = {
       left: 0,
     },
   },
-};
+}

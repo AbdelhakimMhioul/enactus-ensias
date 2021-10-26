@@ -12,7 +12,7 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    description: 'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    description: "The club has built me not only to be an entrepreneur but also a very wanted, competent and effective engineer leader. Thanks to Enactus, I am able to take control of complex projects, lead a team and integrate with the company's managers.",
     avatar: Avatar1,
     name: 'RIDA abdelghani',
     designation: 'Team-Leader ENACTUS 2020/2021',

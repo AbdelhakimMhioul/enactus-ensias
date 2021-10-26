@@ -101,7 +101,7 @@ const data = [
     title: 'Implementation',
     text: 'Implement projects that help students develop the kind of talent and perspective that are essential to leadership in an challenging world',
   },
-];
+]
 
 export default function Feature() {
   return (
@@ -124,7 +124,7 @@ export default function Feature() {
         </Grid>
       </Container>
     </section>
-  );
+  )
 }
 
 const styles = {
@@ -143,4 +143,4 @@ const styles = {
     ],
     gridTemplateColumns: ['repeat(1,1fr)', null, 'repeat(2,1fr)'],
   },
-};
+}

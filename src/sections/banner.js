@@ -8,7 +8,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            ENACTUS Ensias
+            ENACTUS Ensias 3.0
           </Heading>
           <Text as="p" variant="heroSecondary">
             Get your passion, get your creativity, find something that you love & excel at it.

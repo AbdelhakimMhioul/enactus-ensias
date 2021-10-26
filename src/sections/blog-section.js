@@ -1,13 +1,13 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Container, Box } from 'theme-ui';
-import SectionHeader from 'components/section-header';
-import PostCard from 'components/post-card.js';
-import ButtonGroup from 'components/button-group';
-import Carousel from 'react-multi-carousel';
-import PostThumb1 from 'assets/blog/1.jpg';
-import PostThumb2 from 'assets/blog/2.jpg';
-import PostThumb3 from 'assets/blog/3.jpg';
+import { jsx } from 'theme-ui'
+import { Container, Box } from 'theme-ui'
+import SectionHeader from 'components/section-header'
+import PostCard from 'components/post-card.js'
+import ButtonGroup from 'components/button-group'
+import Carousel from 'react-multi-carousel'
+import PostThumb1 from 'assets/blog/1.jpg'
+import PostThumb2 from 'assets/blog/2.jpg'
+import PostThumb3 from 'assets/blog/3.jpg'
 
 const data = [
   {
@@ -46,7 +46,7 @@ const data = [
     authorName: 'James Carter',
     date: 'Oct 20, 2020',
   },
-];
+]
 
 const responsive = {
   desktop: {
@@ -69,7 +69,7 @@ const responsive = {
     items: 1,
     slidesToSlide: 1, // optional, default to 1.
   },
-};
+}
 
 export default function BlogSection() {
   return (
@@ -118,7 +118,7 @@ export default function BlogSection() {
         </Box>
       </Container>
     </section>
-  );
+  )
 }
 
 const styles = {
@@ -127,4 +127,4 @@ const styles = {
       mx: -3,
     },
   },
-};
+}

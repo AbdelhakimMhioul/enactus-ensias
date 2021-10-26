@@ -19,8 +19,8 @@ const data = [
       </g>
       <defs>
         <linearGradient id="paint0_linear_57:73" x1="62.5" y1="6" x2="62.5" y2="134" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F2AB27" />
-          <stop offset="1" stop-color="#F25827" />
+          <stop stopColor="#F2AB27" />
+          <stop offset="1" stopColor="#F25827" />
         </linearGradient>
       </defs>
     </svg>,
@@ -39,8 +39,8 @@ const data = [
       </g>
       <defs>
         <linearGradient id="paint0_linear_57:83" x1="62.5" y1="6" x2="62.5" y2="134" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F2AB27" />
-          <stop offset="1" stop-color="#F25827" />
+          <stop stopColor="#F2AB27" />
+          <stop offset="1" stopColor="#F25827" />
         </linearGradient>
       </defs>
     </svg>,
@@ -65,8 +65,8 @@ const data = [
       </g>
       <defs>
         <linearGradient id="paint0_linear_57:63" x1="62.5" y1="6" x2="62.5" y2="134" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F2AB27" />
-          <stop offset="1" stop-color="#F25827" />
+          <stop stopColor="#F2AB27" />
+          <stop offset="1" stopColor="#F25827" />
         </linearGradient>
       </defs>
     </svg>,
@@ -92,8 +92,8 @@ const data = [
       </g>
       <defs>
         <linearGradient id="paint0_linear_57:50" x1="62.5" y1="6" x2="62.5" y2="134" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F2AB27" />
-          <stop offset="1" stop-color="#F25827" />
+          <stop stopColor="#F2AB27" />
+          <stop offset="1" stopColor="#F25827" />
         </linearGradient>
       </defs>
     </svg>,

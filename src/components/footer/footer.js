@@ -46,7 +46,6 @@ const styles = {
       flexDirection: 'column',
     },
     menus: {
-      mt: [3, 4],
       mb: 2,
       nav: {
         display: 'flex',
@@ -77,7 +76,7 @@ const styles = {
     },
   },
   widgets: {
-    py: [8, null, 9],
+    pb: [8, null, 9],
     px: [4, 0, 3, null, 7, 10],
     width: ['100%', '80%', '100%'],
     mx: 'auto',

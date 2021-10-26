@@ -25,15 +25,21 @@ const data = [
     socialProfile: [
       {
         id: 1,
+        name: 'twitter',
+        path: 'https://twitter.com/MaryamOutaleb',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 2,
         name: 'github',
         path: 'https://github.com/maryout',
         icon: <FaGithub />,
       },
       {
-        id: 2,
-        name: 'twitter',
-        path: 'https://twitter.com/MaryamOutaleb',
-        icon: <FaTwitter />,
+        id: 3,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/maryam-outaleb-0632a4201/',
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -157,12 +163,6 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'github',
-        path: 'https://web.facebook.com/aitja.222',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
         name: 'linkedin',
         path: 'https://www.linkedin.com/in/abdellilah-ait-ja-5b3522159/',
         icon: <FaLinkedin />,

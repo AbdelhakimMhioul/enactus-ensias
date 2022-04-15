@@ -75,7 +75,7 @@ const data = [
       {
         id: 1,
         name: 'twitter',
-        path: 'https://twitter.com/HkMhl',
+        path: 'https://twitter.com/hakim_mhioul',
         icon: <FaTwitter />,
       },
       {

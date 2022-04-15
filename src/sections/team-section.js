@@ -14,6 +14,7 @@ import Member6 from 'assets/team/member-6.png';
 import Member7 from 'assets/team/member-7.png';
 import Member8 from 'assets/team/member-8.png';
 import Member9 from 'assets/team/member-9.png';
+import Member10 from 'assets/team/member-10.png';
 
 const data = [
   {
@@ -69,7 +70,7 @@ const data = [
     imgSrc: Member3,
     altText: 'Mhioul Abdelhakim',
     title: 'Mhioul Abdelhakim',
-    designation: 'Technical Manager',
+    designation: 'Technical Project Manager',
     socialProfile: [
       {
         id: 1,
@@ -202,6 +203,21 @@ const data = [
         name: 'twitter',
         path: 'https://twitter.com/Amineal54197840',
         icon: <FaTwitter />,
+      },
+    ],
+  },
+  {
+    id: 10,
+    imgSrc: Member10,
+    altText: 'Khalid Bouassa',
+    title: 'Khalid Bouassa',
+    designation: 'Project Manager',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/khalid-bouassa/',
+        icon: <FaLinkedin />,
       },
     ],
   },

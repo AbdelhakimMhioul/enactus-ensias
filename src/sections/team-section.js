@@ -15,6 +15,7 @@ import Member7 from 'assets/team/member-7.png';
 import Member8 from 'assets/team/member-8.png';
 import Member9 from 'assets/team/member-9.png';
 import Member10 from 'assets/team/member-10.png';
+import Member11 from 'assets/team/member-11.png';
 
 const data = [
   {
@@ -219,6 +220,15 @@ const data = [
         path: 'https://www.linkedin.com/in/khalid-bouassa/',
         icon: <FaLinkedin />,
       },
+    ],
+  },
+  {
+    id: 11,
+    imgSrc: Member11,
+    altText: 'Salim Benaayad',
+    title: 'Salim Benaayad',
+    designation: 'Project Manager',
+    socialProfile: [
     ],
   },
 ];
